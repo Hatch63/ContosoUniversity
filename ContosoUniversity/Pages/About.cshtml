@@ -5,27 +5,11 @@
     ViewData["Title"] = "Student Body Statistics";
 }
 
-<h2>Student Body Statistics</h2>
-
-<table>
-    <tr>
-        <th>
-            Enrollment Date
-        </th>
-        <th>
-            Students
-        </th>
-    </tr>
-
-    @foreach (var item in Model.Student)
-    {
-        <tr>
-            <td>
-                @Html.DisplayFor(modelItem => item.EnrollmentDate)
-            </td>
-            <td>
-                @item.StudentCount
-            </td>
-        </tr>
-    }
-</table>
+<h2>About Dean Tyler</h2>
+<p>After attending the prestigious school of BYUI he instantly came to Contoso to teach us the way</p>
+<br />
+<p>For additional questions feel free to contact him</p>
+<p>Cellular: 703-703-7033</p>
+<p>Email: DeanOfContoso@gmail.com</p>
+<br />
+<img src="https://portfolium1.cloudimg.io/s/crop/192x192/https://cdn.portfolium.com/ugcs3%2Fv3%2Favatar%2FUFReoyrQ820OyY698uCA_15732569_10154905881314855_6907315554391686686_o.jpg" alt="Alternate Text" />
